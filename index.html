@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>calculator</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">多功能金融计算器</span></a></h1>
+          <h2>一款轻量在线计算器</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="01.html">科学计算器</a></li>
+          <li><a href="02.html">进制转换</a></li>
+          <li><a href="03.html">人民币大小写转换</a></li>
+		  <li><a href="04.html">汇率转换</a></li>
+          <li><a href="#">金融计算器</a>
+            <ul>
+              <li><a href="05_zhibi.html">纸币流通规律</a></li>
+
+              <li><a href="06_danli.html">利息利率-单利</a></li>
+              <li><a href="07_fuli.html">利息利率-复利</a></li>
+              <li><a href="08_daikuan.html">贷款质量</a></li>
+			  <li><a href="09_piaoju.html">票据贴现额</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>适用总结</h3>
+          <h4>跨国购物计算</h4>
+          <h5>最适于个人代购计算</h5>
+          <p>                  </p>
+          <h4>政经、货币相关计算</h4>
+          <h5>仅适用基础问题计算</h5>
+          <p>                    </p>
+        </div>
+      </div>
+      <div class="content">
+        <h1>欢迎使用金融计算器</h1>
+        <p>功能简览：</p>
+        <p>☆科学计算器——高级与简单-------------------------------☆2~36进制相互转换</p>
+		<p>☆阿拉伯数字人民币金额转换为大写汉字----------------☆多国汇率实时转换</p>
+		<p>☆政经计算题——货币流通--------------------------------☆利息计算</p>
+		<p>☆贷款质量评估--------------------------------------------☆票据贴现额计算</p>
+      </div>
+</div>
+    <footer>
+      <p>Copyright &copy; financecal.top | <a href="http://financecal.top/">design from LYX and TYD</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max : 600,
+        spacing : 2
+      });
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+h1 {
+
+   margin-top: 40px;
+   margin-bottom: 30px;
+   text-align: center;
+   padding: 30px 30px;
+   background-color:white;
+   color: #4169E1;
+   font-family:ºÚÌå;
+   font-size:60px;
+   font-weight: normal;
+  
+}
+ 
+.STYLE1 {
+	font-family: "Microsoft YaHei UI";
+	color: #000000;
+}
+.STYLE2 {
+	font-family: "Microsoft YaHei UI";
+	color: #666666;
+	font-size: large;
+}
+
+.dropbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn2{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	position:absolute;
+	left: 227px;
+	top: 9px;
+	width: 86px;
+}
+
+
+.dropdown {
+	position: absolute;
+	left: 126px;
+	top: 6px;
+	width: 126px;
+}
+.dropdown 2{
+	position: absolute;
+	left:66px;
+	top: 10px;
+	width: 126px;
+	border-bottom-style:double;
+	border:thick;
+	border-bottom-color:#33FF66;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown2-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown2-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover,.dropdown2-content a:hover{background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content, .dropdown2:hover .dropdown2-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn, .dropdown2:hover .dropbtn2{
+    background-color: #3e8e41;
+}
+
+
+
+.button {
+
+       background-corlor:
+       color: black;
+       padding: 15px 20px;
+       text-align: center;
+	   font-family:ºÚÌå;
+       font-size: 27px;
+       cursor: pointer;	   
+	   border-bottom-width:thin;	   
+	   margin-bottom:18px;
+	   
+	   -webkit-transition-duration: 0.4s; /* Safari */
+       transition-duration: 0.4s;   
+   }
+   
+.button:hover {
+    background-color:#20B2AA; /* Green */
+    color: white;
+}

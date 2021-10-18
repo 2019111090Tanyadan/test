@@ -1,0 +1,67 @@
+.container{
+position:absolute;
+top:67%;
+left:17%;
+}
+
+@media screen and (min-width:769px),print{
+.column.is-offset-1{margin-left:8.33333%}
+.column.is-10{flex:none;width:83.33333%}
+}
+.columns{margin-left:-.75rem;margin-right:-.75rem;margin-top:-.75rem}
+.columns:last-child{margin-bottom:-.75rem}
+@media screen and (min-width:769px),print{.columns:not(.is-desktop){display:flex}
+}
+.section{padding:3rem 1.5rem}
+.footer{background-color:#ecf0f1;padding:3rem 1.5rem 3rem}
+hr{height:1px}
+a{transition:all .2s ease}
+.navbar{border-radius:.4em}
+.navbar .navbar-menu{box-shadow:none}
+@media screen and (max-width:1023px){.navbar{color:#ecf0f1}
+.navbar .navbar-menu{background-color:#ecf0f1;border-radius:0}
+.navbar .navbar-item:not(.is-active):not(:hover),.navbar .navbar-link:not(.is-active):not(:hover){color:#34495e}
+}
+body>.navbar{border-radius:0}
+.hero.is-white .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-white .navbar .navbar-link:not(.is-active):not(:hover){color:#0a0a0a}
+@media screen and (min-width:1024px){.hero.is-white .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-black .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-black .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-black .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-light .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-light .navbar .navbar-link:not(.is-active):not(:hover){color:#363636}
+@media screen and (min-width:1024px){.hero.is-light .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-dark .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-dark .navbar .navbar-link:not(.is-active):not(:hover){color:#ecf0f1}
+@media screen and (min-width:1024px){.hero.is-dark .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-primary .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-primary .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-primary .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-link .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-link .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-link .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-info .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-info .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-info .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-success .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-success .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-success .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-warning .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-warning .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-warning .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+.hero.is-danger .navbar .navbar-item:not(.is-active):not(:hover),.hero.is-danger .navbar .navbar-link:not(.is-active):not(:hover){color:#fff}
+@media screen and (min-width:1024px){.hero.is-danger .navbar .navbar-dropdown .navbar-item:not(.is-active):not(:hover){color:#34495e}
+}
+@media screen and (max-width:1023px){.navbar>.container{display:block}
+.navbar-brand .navbar-item,.navbar-tabs .navbar-item{align-items:center;display:flex}
+.navbar-menu{box-shadow:0 8px 16px rgba(10,10,10,.1);padding:.5rem 0}
+.navbar-menu.is-active{display:block}
+.navbar.is-fixed-bottom-touch,.navbar.is-fixed-top-touch{left:0;position:fixed;right:0;z-index:30}
+.navbar.is-fixed-bottom-touch{bottom:0}
+.navbar.is-fixed-bottom-touch.has-shadow{box-shadow:0 -2px 3px rgba(10,10,10,.1)}
+.navbar.is-fixed-top-touch{top:0}
+.navbar.is-fixed-top .navbar-menu,.navbar.is-fixed-top-touch .navbar-menu{-webkit-overflow-scrolling:touch;max-height:calc(100vh - 4rem);overflow:auto}
+html.has-navbar-fixed-top-touch{padding-top:4rem}
+html.has-navbar-fixed-bottom-touch{padding-bottom:4rem}
+}
